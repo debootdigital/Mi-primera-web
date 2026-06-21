@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Bienvenido a mi página web</h1>
+
+        <p>
+            Esta página fue creada con Visual Studio Code.
+        </p>
+
+        <div class="botones">
+            <button onclick="mostrarMensaje()">
+                Haz clic aquí
+            </button>
+            <button onclick="mostrarContacto()" class="btn-contacto">
+                Contacto
+            </button>
+            <button onclick="mostrarAnular()" class="btn-anular">
+                Anular Pedido
+            </button>
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
